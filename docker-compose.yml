@@ -1,0 +1,38 @@
+version: "3.9"
+services:
+  db:
+    container_name: bot_db
+    image: postgres:14.8-alpine3.18
+    environment:
+      POSTGRES_DB: "postgres"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+    ports:
+      - 5433:5432
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+  selenium:
+    container_name: bot_webdriver
+    image: selenium/standalone-chrome
+    ports:
+      - 4444:4444
+  redis:
+    container_name: bot_redis
+    image: redis:alpine
+    ports:
+      - 6379:6379
+  bot:
+    container_name: bot
+    depends_on:
+      - db
+      - selenium
+      - redis
+    network_mode: host
+    build: .

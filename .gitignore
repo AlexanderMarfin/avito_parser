@@ -1,0 +1,9 @@
+venv/
+.env
+.mypy_cache/
+__pycache__/
+.vscode/
+pgdata/
+test/
+temp/
+
