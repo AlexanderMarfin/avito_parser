@@ -106,34 +106,34 @@ Avito_avtobot/
 
 ### 🔘 Меню выбора
 ***
-![Home_menu.png](..%2F..%2FDesktop%2FHome_menu.png)
+![Home_menu](https://github.com/AlexanderMarfin/avito_parser/assets/128323460/c310efae-f6ff-4d00-b163-3149ae79392a)
 
 Бот позволяет сделать прямую выгрузку по ссылке авито или выполнить интеркативный поиск по параметрам авто
 
 ### 🔗 Выгрузка объявлений по ссылке
 ***
-![Unloading_menu.png](..%2F..%2FDesktop%2FUnloading_menu.png)
+![Unloading_menu](https://github.com/AlexanderMarfin/avito_parser/assets/128323460/4318709e-9992-4855-bd82-7c59cb182e08)
 
 Выполните поиск на сайте авито и отправьте ссылку боту
 
-![Auto_parsing.png](..%2F..%2FDesktop%2FAuto_parsing.png)
+![Auto_parsing](https://github.com/AlexanderMarfin/avito_parser/assets/128323460/69fc031e-e296-4b88-83cb-77d36208197c)
 
 Файл с выгрузкой будет доступен в формате csv
 
-![File.png](..%2F..%2FDesktop%2FFile.png)
+![File](https://github.com/AlexanderMarfin/avito_parser/assets/128323460/ca673b90-23f1-4fcf-abe5-7174733610e0)
 
 Бот предлагает базовый анализ выгруженных данных. Учитываются только те объявления, где нет пропущенных значений 
 
 Статистика
 
-![stats.jpg](..%2F..%2FDesktop%2Fstats.jpg)
+![stats](https://github.com/AlexanderMarfin/avito_parser/assets/128323460/dede5cad-1375-4a1b-9ad7-77aece8af142)
 
 График
 
-![plot.jpg](..%2F..%2FDesktop%2Fplot.jpg)
+![plot](https://github.com/AlexanderMarfin/avito_parser/assets/128323460/da67da05-3619-463e-9365-4d5ee448fecd)
 
 ### 🌟 Генератор ссылки с последующей выгрузкой
 ***
 Интерактивный режим поиска авто по передаваемым параметрам
 
-![Auto_Finder.png](..%2F..%2FDesktop%2FAuto_Finder.png)
+![Auto_Finder](https://github.com/AlexanderMarfin/avito_parser/assets/128323460/911786a7-87b7-4423-aae8-9c0a3175f055)
